@@ -1,0 +1,33 @@
+.TodoItem {
+    width: 100%;
+    background: #c3b9fc;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.TodoItem--complete {
+    background: #6b51fd;
+}
+
+.TodoItem-p {
+    margin: 0;
+    margin-right: auto;
+}
+
+.Icon {
+    font-size: 20px;
+}
+
+.Icon-check {
+    position: static;
+}
+
+.Icon-delete {
+    position: static;
+}

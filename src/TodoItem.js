@@ -1,11 +1,19 @@
-function TodoItem() {
-    return(
-      <li>
-        <span>V</span>
-        <p>Llorar con la llorona</p>
-        <span>X</span>
-      </li>
-    );
-  }
+import './TodoItem.css';
 
-  export { TodoItem };
+function TodoItem(props) {
+    return ( 
+      <li className = "TodoItem TodoItem--complete" >
+        <span className='Icon Icon-check Icon-check--active'> 
+        V
+        </span>
+        <p className='TodoItem-p TodoItem-p--complete'>
+        { props.text }
+        </p>
+        <span className='Icon Icon-delete'>
+        X
+        </span>
+        </li>
+    );
+}
+
+export { TodoItem };

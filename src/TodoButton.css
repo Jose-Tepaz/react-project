@@ -1,0 +1,13 @@
+.btnCreate {
+    background: #2b28ff;
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 18px;
+    border-radius: 32px;
+    border-style: none;
+    transition: 200ms ease-in;
+}
+
+.btnCreate:hover {
+    transform: translateY(-5px);
+}

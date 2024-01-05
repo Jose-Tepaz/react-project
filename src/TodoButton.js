@@ -1,6 +1,14 @@
+import './TodoButton.css';
+
 function TodoButton() {
     return (
-        <button> Crear lista </button>
+        <button 
+        className="btnCreate"
+        onClick={ (event) => {
+            console.log(event.target);
+        } } >
+        Crear tarea +
+        </button>
     );
 }
 
